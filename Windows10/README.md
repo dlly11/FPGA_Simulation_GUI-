@@ -5,8 +5,8 @@ Requires Quartus Lite 20.1
 Must have installed Quartus Lite + Modelsim to "C:/intelFPGA_lite/20.1"
 
 Setting up:
-1) Right click "setup_script.ps1"
-2) Click "Run with PowerShell" - First time running will take a while (downloads necessary files)
+1) Open a powershell as administrator in this folder.
+2) Type .\setup_script.ps1 - First time running will take a while (downloads necessary files)
 2.5) If the script stalls, press the down arrow key in powershell - it should keep printing to screen
 3) If working correctly the GUI should have started
 

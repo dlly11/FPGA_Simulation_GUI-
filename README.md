@@ -1,6 +1,3 @@
-David Lynch
-
-
 This repo provides instructions/setup scripts for https://github.com/intel/FPGA-Devcloud/tree/master/main/HandsFree/Simulator/DESim
 
 Provided is also a tcl script that allows running the simulator on Linux. 

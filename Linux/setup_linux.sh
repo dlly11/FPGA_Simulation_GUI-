@@ -3,8 +3,9 @@
 # Setup install directories - Feel free to change
 export INSTALL_DIRECTORY=(~/fpga_gui)
 export JAVA_DIRECTORY=($INSTALL_DIRECTORY/openJava)
-export SIMULATOR_DIRECTORY=($INSTALL_DIRECTORY/simFPGA)
+export SIMULATOR_DIRECTORY=($INSTALL_DIRECTORY/DESim)
 
+# Find the Modelsim Install directory
 MODELSIM_INSTALL_PATH=`which vsim`
 
 if [ -z $MODELSIM_INSTALL_PATH ]; then
@@ -16,8 +17,6 @@ if [ -z $MODELSIM_INSTALL_PATH ]; then
     exit 1
 fi
 echo "Modelsim install directory: $MODELSIM_INSTALL_PATH"
-
-
 
 echo "GUI install directory: $INSTALL_DIRECTORY"
 
